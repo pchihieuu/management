@@ -1,6 +1,6 @@
 import { Repository } from 'typeorm';
 import { StoreOwner } from '../entities/store-owner.entity';
-import { AppDataSource } from '../config/ormconfig'; // Sửa đúng đường dẫn của bạn
+import { AppDataSource } from '../config/ormconfig'; 
 
 interface CreateStoreOwnerDTO {
     fullName: string;
